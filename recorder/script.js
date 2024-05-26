@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
   let eco = true;
   let supresion = true;
   let ganancia = true;
-  let relacion = { ideal: 16 / 9 };
   let resize = "none";
 
   startButton.addEventListener("click", async () => {
@@ -44,7 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
           frameRate: { ideal: frames },
           width: { ideal: width },
           height: { ideal: height },
-          aspectRatio: relacion,
           resizeMode: { ideal: resize },
         },
       });
@@ -142,7 +140,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const selectCanal = document.getElementById("canal").value;
     const selectTasa = document.getElementById("tasa").value;
     const resizeMode = document.getElementById("resizeMode").value;
-    const aspectRatio = document.getElementById("aspectRatio").value;
     const echoCancellation = document.getElementById("echoCancellation").value;
     const autoGainControl = document.getElementById("autoGainControl").value;
     const noiseSuppression = document.getElementById("noiseSuppression").value;
@@ -160,14 +157,6 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       width = 3840;
       height = 2160;
-    }
-
-    if (aspectRatio === "16/9") {
-      relacion = { ideal: 16 / 9 };
-    } else if (aspectRatio === "4/3") {
-      relacion = { ideal: 4 / 3 };
-    } else {
-      relacion = { ideal: 1 };
     }
 
     if (echoCancellation === "activo") {

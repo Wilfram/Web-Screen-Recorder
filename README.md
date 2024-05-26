@@ -8,7 +8,7 @@ El proyecto cuenta con una interfaz gráfica que permite configurar los ajustes 
 
 - Grabación de pantalla web.
 - Interfaz gráfica para configurar los ajustes del video.
-- Configuración de la calidad de video, FPS, relación de aspecto, modo de redimensionamiento, tasa de bits, frecuencia de muestreo, canales de audio, cancelación de eco, control automático de ganancia y supresión de ruido.
+- Configuración de la calidad de video, FPS, modo de redimensionamiento, tasa de bits, frecuencia de muestreo, canales de audio, cancelación de eco, control automático de ganancia y supresión de ruido.
 - Guardado automático de la grabación con el nombre ingresado en el input o como "captura" si no se proporciona un nombre.
 - Descarga del video en formato webm.
 - Visualización de la grabación en una etiqueta de video.
@@ -39,7 +39,7 @@ The project features a graphical interface that allows users to easily configure
 
 - Web screen recording.
 - Graphical interface for configuring video settings.
-- Configuration of video quality, FPS, aspect ratio, resizing mode, bitrate, sampling frequency, audio channels, echo cancellation, automatic gain control, and noise suppression.
+- Configuration of video quality, FPS, resizing mode, bitrate, sampling frequency, audio channels, echo cancellation, automatic gain control, and noise suppression.
 - Automatic saving of the recording with the entered name in the input or as "capture" if no name is provided.
 - Download of the video in webm format.
 - Display of the recording in a video tag.
